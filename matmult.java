@@ -70,9 +70,12 @@ public class matmult {
 			{
 			    if (i == 0 || i == 1)
 				{
-				    addCounter++;
+				    continue;
 				}
 			}
+		    else{
+			addCounter++;
+		    }
                     multCounter++;
                 }
                 product[row][col]= cell;
